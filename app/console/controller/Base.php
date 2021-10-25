@@ -1,6 +1,6 @@
 <?php
 
-namespace app\client\controller;
+namespace app\console\controller;
 
 use think\Request;
 

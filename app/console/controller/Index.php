@@ -1,8 +1,13 @@
 <?php
-namespace app\index\controller;
+namespace app\console\controller;
 
-class Index
+use app\console\controller\Base;
+
+class Index extends Base
 {
+    protected $noNeedLogin = ['index'];
+    protected $noNeedAuth = [];
+
     public function index()
     {
         return 'index/Index/index';
